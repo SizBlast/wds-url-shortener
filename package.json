@@ -1,0 +1,20 @@
+{
+  "name": "wds-url-shortener",
+  "version": "1.0.0",
+  "description": "How To Build A URL Shortener With Node.js, Express, and MongoDB >> https://www.youtube.com/watch?v=SLpUKAGnm-g",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "author": "Web Dev Simplified",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.3",
+    "shortid": "^2.2.15"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
